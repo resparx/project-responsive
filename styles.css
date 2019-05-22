@@ -1,0 +1,54 @@
+  .container{
+    max-width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding :1em
+} 
+.flashnews{
+    max-width: 100%;
+    max-height: 400px;
+}
+.flashnews > img{
+    max-width: 100%;
+    max-height: 400px;
+}
+.brighton{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    display: grid;
+    grid-template-columns:1fr 7fr 1fr;
+    margin: 5px
+
+}
+.brighton > img{
+  width: 55px;
+  height: 55px;
+}
+.brighton > p{
+    font-size: 20px;
+    text-align: left;
+    vertical-align: middle
+}
+.weather{
+    display:grid;
+    grid-template-columns: 60%
+
+}
+.wrapper > div:nth-child(even){
+    background: #eee;
+    padding:1em
+}
+.wrapper > div:nth-child(odd){
+    background: #aaa;
+}
+.a{
+    font-size: 14px;
+    padding:.5em
+}
+h4{
+    color: #cccc00;
+}
+.enews{
+    font-size: 12px;
+}
